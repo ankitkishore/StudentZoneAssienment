@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">StudentZoneAssienment</string>
+    <string-array name="Lotaion">
+        <item>Bangalore </item>
+        <item>Hyderabad </item>
+    </string-array>
+    <string-array name="Hyderabad_localities">
+        <item>SR_nagar</item>
+        <item>Ameerpet</item>
+    </string-array>
+    <string-array name="Bangalore_localities">
+        <item>HSR_layout</item>
+        <item>Tinfactory</item>
+    </string-array>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+
+</resources>

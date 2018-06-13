@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/s1"
+        android:layout_margin="10dp">
+    </Spinner>
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/s2"
+        android:layout_below="@+id/s1"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+    </Spinner>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="10dp"
+        android:hint="PG Name"
+        android:id="@+id/pg_name"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="10dp"
+        android:hint="Address"
+        android:id="@+id/address"
+        />
+    <EditText
+        android:id="@+id/sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="10dp"
+        android:hint="Sharing Allowed"
+        android:inputType="numberSigned" />
+    <EditText
+        android:id="@+id/rent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_margin="10dp"
+        android:hint="Rent"
+        android:inputType="numberSigned"/>
+    <EditText
+        android:id="@+id/contact_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Contact no"
+        android:layout_margin="10dp"
+        android:inputType="numberSigned"/>
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="300dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="15"
+        android:id="@+id/b1"
+        android:text="Submit"/>
+</LinearLayout>

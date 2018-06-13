@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "551083725501",
+    "firebase_url": "https://studentzoneassienment.firebaseio.com",
+    "project_id": "studentzoneassienment",
+    "storage_bucket": "studentzoneassienment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551083725501:android:b8ffe26265286d2f",
+        "android_client_info": {
+          "package_name": "com.example.ankit.studentzoneassienment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551083725501-jj3u7g1q410lg62nqc3o3vionbr8kmec.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.studentzoneassienment",
+            "certificate_hash": "eddb67f1b54366c7333b2a7a983206cc508d2ba4"
+          }
+        },
+        {
+          "client_id": "551083725501-8m41jtd8g5rkm74ia5pdod9u374r40g8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl8rr0UwgK4Pat9WZHgPSCJVehxgu3J8E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551083725501-8m41jtd8g5rkm74ia5pdod9u374r40g8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
